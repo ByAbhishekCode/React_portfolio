@@ -16,6 +16,7 @@ const Projects = () => {
     <section
       onMouseMove={handleMouseMove}
       className="relative c-space section-spacing"
+      id="projects"
     >
       <div className="flex items-center justify-center mb-10 ">
         <div className="flex-grow border-t border-gray-600"></div>
@@ -24,9 +25,9 @@ const Projects = () => {
         </h2>
         <div className="flex-grow border-t border-gray-600"></div>
       </div>
-      
+
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent mt-12 h-[1px] w-full" />
-      
+
       {myProjects.map((project) => (
         <Project key={project.id} {...project} setPreview={setPreview} />
       ))}

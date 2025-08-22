@@ -1,21 +1,20 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Care Hub",
     description:
       "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
     subDescription: [
       "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/carehub.png",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
@@ -36,179 +35,29 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Pet Bridge",
     description:
       "A secure authentication and authorization system using Auth0 for seamless user management.",
     subDescription: [
       "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/pawprint.jpg",
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Blazor Web App",
-    description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
-    subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/blazor-app.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
         name: "HTML5",
         path: "/assets/logos/html5.svg",
       },
       {
-        id: 3,
-        name: "CSS3",
+        id: 2,
+        name: "Css",
         path: "/assets/logos/css3.svg",
       },
       {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
         id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
+        name: "Tailwind Css",
         path: "/assets/logos/tailwindcss.svg",
       },
     ],
@@ -237,20 +86,18 @@ export const mySocials = [
 export const education = [
   {
     degree: "Master of Computer Applications (MCA)",
-    clg: "Maharana Pratap Engineering College, Kanpur",
+    clg: "Dr. A.P.J. Abdul Kalam Technical University",
     date: "2023 – 2025",
     sepecifications: [
-      "Specialized in advanced software engineering, database systems, and web technologies.",
-      "Currently exploring full-stack development and cloud integration.",
+      "Specialized in advanced software engineering, database systems, and web technologies.Currently exploring full-stack development and cloud integration.",
     ],
   },
   {
     degree: "Bachelor of Computer Applications (BCA)",
-    clg: "Dr. Virendra Institute of Computer Studies, Kanpur",
+    clg: "Chhatrapati Shahu Ji Maharaj University",
     date: "2020 – 2023",
     sepecifications: [
-      "Focused on backend development with Python, Java, and C.",
-      "Built strong fundamentals in software development and data structures.",
+      "Focused on backend development with Python, Java, and C.Built strong fundamentals in software development and data structures.",
     ],
   },
   {
@@ -258,8 +105,7 @@ export const education = [
     clg: "UP Board",
     date: "2019 – 2020",
     sepecifications: [
-      "Studied Mathematics and Computer Science.",
-      "Built strong problem-solving and logical reasoning foundation.",
+      "Studied Mathematics and Computer Science.Built strong problem-solving and logical reasoning foundation.",
     ],
   },
   {
@@ -267,8 +113,7 @@ export const education = [
     clg: "UP Board",
     date: "2017 – 2018",
     sepecifications: [
-      "Focused on core subjects including Mathematics and Science.",
-      "Developed early interest in computers and technology.",
+      "Focused on core subjects including Mathematics and Science.Developed early interest in computers and technology.",
     ],
   },
 ];

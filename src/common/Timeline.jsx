@@ -16,7 +16,7 @@ export const Timeline = ({ data }) => {
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
-    offset: ["start 10%", "end 25%"],
+    offset: ["start 10%", "end 33%"],
   });
 
   const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height]);
@@ -26,28 +26,31 @@ export const Timeline = ({ data }) => {
     <div className="c-space" ref={containerRef}>
       <div ref={ref} className="relative pb-2">
         {data.map((item, index) => (
-          <div
-            key={index}
-            className="flex justify-start  md:pt-20 md:gap-10"
-          >
+          <div key={index} className="flex justify-start  md:pt-20 md:gap-10">
             <div className="sticky z-40 flex flex-col items-center self-start max-w-xs md:flex-row top-40 lg:max-w-sm md:w-full">
               <div className="absolute flex items-center justify-center w-10 h-10 rounded-full -left-[15px] bg-midnight">
                 <div className="w-4 h-4 p-2 border rounded-full bg-neutral-800 border-neutral-700" />
               </div>
               <div className="flex-col hidden gap-2 text-xl font-bold md:flex md:pl-20 md:text-4xl text-neutral-300">
-                <h3>{item.date}</h3>
-                <h3 className="text-3xl text-neutral-400">{item.degree}</h3>
+                <h3 className="text-2xl text-neutral-100">{item.degree}</h3>
+                <h3 className="text-xl text-neutral-400">{item.date}</h3>
               </div>
             </div>
 
             <div className="relative w-full pl-20 pr-4 md:pl-4">
+              {/* Small screen only */}
               <div className="block mb-4 text-2xl font-bold text-left text-neutral-300 md:hidden ">
-                <h3>{item.date}</h3>
                 <h3>{item.clg}</h3>
+                <h3>{item.date}</h3>
               </div>
-              <h3 className="text-4xl text-neutral-200 mb-3">{item.clg}</h3>
+
+              {/* Medium+ screen only */}
+              <h3 className="hidden md:block text-3xl text-neutral-200 font-bold mb-3">
+                {item.clg}
+              </h3>
+
               {item.sepecifications.map((content, index) => (
-                <p className="mb-1 font-normal text-neutral-400" key={index}>
+                <p className="mb-4 font-normal text-neutral-400" key={index}>
                   {content}
                 </p>
               ))}

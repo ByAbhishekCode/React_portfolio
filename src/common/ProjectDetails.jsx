@@ -11,7 +11,7 @@ const ProjectDetails = ({
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center w-full h-fit overflow-hidden backdrop-blur-sm">
       <motion.div
-        className="relative max-w-2xl h-[95vh] mt-10 border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10"
+        className="relative max-w-2xl h-[95vh] mt-5 border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10"
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
       >

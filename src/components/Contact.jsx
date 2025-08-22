@@ -2,10 +2,7 @@ import SocialIcons from "../common/SocialIcons";
 
 const ContactMe = () => {
   return (
-    <div
-      id="contact_me"
-      className="max-w-7xl mx-auto p-8 text-white space-y-10"
-    >
+    <div id="contact" className="max-w-7xl mx-auto p-8 text-white space-y-10">
       {/* Section Heading */}
       <div className="flex items-center justify-center mb-10">
         <div className="flex-grow border-t border-gray-600"></div>
@@ -40,10 +37,9 @@ const ContactMe = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="flex justify-center items-center  text-gray-300 hover:text-[#b74b4b] text-lg font-semibold"
-            >
-            </a>
+            ></a>
           </div>
-          Contact With Us
+          Contact With Me
           <div className="flex justify-center">
             <SocialIcons />
           </div>

@@ -12,7 +12,7 @@ import { Particles } from "../common/Particles";
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
   return (
-    <section className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start px-4 md:px-3">
+    <section className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start px-4 md:px-3" id="home">
       
       <HeroText />
       <figure className="absolute inset-0 w-screen h-[155vh] md:h-screen">
