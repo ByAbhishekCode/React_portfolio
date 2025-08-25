@@ -18,16 +18,21 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
+        name: "Node js",
+        path: "/assets/logos/node.svg",
       },
       {
         id: 4,
+        name: "Express Js",
+        path: "/assets/logos/expressjs.svg",
+      },
+      {
+        id: 5,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
