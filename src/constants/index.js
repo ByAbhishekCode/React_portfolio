@@ -7,7 +7,7 @@ export const myProjects = [
     subDescription: [
       "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
     ],
-    href: "",
+    href: "https://carehub-abhishek.netlify.app/",
     logo: "",
     image: "/assets/projects/carehub.png",
     tags: [
@@ -44,9 +44,9 @@ export const myProjects = [
     description:
       "A secure authentication and authorization system using Auth0 for seamless user management.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
+      "Integrated Auth for authentication, supporting OAuth, JWT, and multi-factor authentication.",
     ],
-    href: "",
+    href: "https://petbridge-abhishek.netlify.app/",
     logo: "",
     image: "/assets/projects/pawprint.jpg",
     tags: [
